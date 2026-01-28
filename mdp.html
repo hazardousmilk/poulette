@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Se connecter</title>
+  <link rel="stylesheet" type="text/css" href="mdpcss.css">
+</head>
+<body>
+  <h1>Entrez le mot de passe pour acceder cette page</h1><br><br><br><br>
+  <input type="password" id="passwordInput">
+  <button onclick="checkPassword()">Validey</button>
+
+  <div id="content" style="display:none;">
+    <h2>Crédit</h2>
+    <p>Amine, Chouheib et Hafsa le poulette</p>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('passwordInput').value;
+      if (password === 'mot de passe') {
+        document.getElementById('content').style.display = 'block';
+      } else {
+        alert('Mot de passe incorrect');
+      }
+    }
+  </script>
+</body>
+</html>

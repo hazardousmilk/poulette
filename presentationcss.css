@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('C:\Users\eleve01\Desktop\projectpoulette-20230323T112513Z-001\projectpoulette\acceuil\Source_Serif_Pro') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: #EAD2A8;
+}
+
+nav {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.img {
+  text-align:center;
+}
+
+.p1 {
+    text-indent: 2em;
+    font-size: 30px;
+    font-weight: 450;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.p2 {
+  text-indent: 2em;
+  font-size: 30px;
+  font-weight: 450;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.p3 {
+  text-indent: 2em;
+  font-size: 30px;
+  font-weight: 450;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
