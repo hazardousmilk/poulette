@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Source Serif Pro';
-  src: url('C:\Users\eleve01\Desktop\projectpoulette-20230323T112513Z-001\projectpoulette\acceuil\Source_Serif_Pro') format('opentype');
+  src: url('Source_Serif_Pro') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,4 +55,5 @@ body {
   font-weight: 450;
   margin-top: 1em;
   margin-bottom: 1em;
+
 }
